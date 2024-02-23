@@ -1,7 +1,7 @@
 # A600FastRAM
 A600FastRAM is an Open Hardware 4 MB Fast RAM Expansion for the Commodore Amiga 600 Computer. It is an almost complete copy of SukkoPera's OpenAmiga600FastRamExpansion. All that has been altered is the PCB design. This is because that design sticks out over Denise and would not fit with my RGB2HDMI. I have designed this board to fit around the Kickstart chip. I also used the Freerouting plugin in Kicad 7.0 as I find I'm not that good at routing traces manually.
 
-VERY IMPORTANT WARNING: I haven't had any boards fabricated just yet, so I'm not sure 1) whether it will actually fit, and 2) that it can be programmed in situ by just getting power from the 5V line of the CPU. I may find it necessary to put C13 from the original design back into mine so that an external power souce can be used.
+VERY IMPORTANT WARNING: I haven't had any boards fabricated just yet, so I'm not sure of 1) whether it will actually fit, or 2) that it can be programmed in situ by just getting power from the 5V line of the CPU. I may find it necessary to put C13 from the original design back into mine so that an external power souce can be used.
 
 ![Board](https://github.com/jimfrob/A600FastRAM/blob/main/render-top.svg)
 
