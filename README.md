@@ -1,5 +1,5 @@
-# OpenAmiga600FastRamExpansion
-OpenAmiga600FastRamExpansion is an Open Hardware 4 MB Fast RAM Expansion for the Commodore Amiga 600 Computer.
+# A600FastRAM
+A600FastRAM is an Open Hardware 4 MB Fast RAM Expansion for the Commodore Amiga 600 Computer. It is an almost complete copy of SukkoPera's OpenAmiga600FastRamExpansion. All that has been altered is the PCB design. This is because that design sticks out over Denise and would not fit with my RGB2HDMI. I have designed this board to fit around the Kickstart chip. I also used the Freerouting plugin in Kicad 7.0 as I find I'm not that good at routing traces manually.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenAmiga600FastRamExpansion/master/doc/render-top.png)
 
