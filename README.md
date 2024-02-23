@@ -1,6 +1,8 @@
 # A600FastRAM
 A600FastRAM is an Open Hardware 4 MB Fast RAM Expansion for the Commodore Amiga 600 Computer. It is an almost complete copy of SukkoPera's OpenAmiga600FastRamExpansion. All that has been altered is the PCB design. This is because that design sticks out over Denise and would not fit with my RGB2HDMI. I have designed this board to fit around the Kickstart chip. I also used the Freerouting plugin in Kicad 7.0 as I find I'm not that good at routing traces manually.
 
+VERY IMPORTANT WARNING: I haven't had any boards fabricated just yet, so I'm not sure 1) whether it will actually fit, and 2) that it can be programmed in situ by just getting power from the 5V line of the CPU. I may find it necessary to put C13 from the original design back into mine so that an external power souce can be used.
+
 ![Board](https://github.com/jimfrob/A600FastRAM/blob/main/render-top.svg)
 
 ### Summary
@@ -30,7 +32,7 @@ Next you should solder all the remaining surface mount components, first on the 
 
 Before soldering the CPU socket you will need to rework it a bit if you want a really good fit: get some sandpaper and follow [these instructions](SocketRework.md). After it has been soldered, you can cut the bottom of it so that the window in the PCB continues through the socket. Most sockets will already have holes on the bottom that will make this operation easier. This will allow you to install a 14x14mm heatsink on the CPU, which might be a good idea since placing this board over the CPU will somewhat reduce the heat dissipation capabilities of the chip. Make sure to use good thermal adhesive/glue, otherwise you risk to make the dissipation even worse.
 
-When you are done with the soldering you will need to program the CPLD. Whenever you do so, **make sure to carefully remove the board from your Amiga, or you might risk damaging it**. You can find the firmware [here](https://github.com/SukkoPera/OpenAmiga500FastRamExpansion/tree/master/firmware), along with instructions on how to flash it. Make sure you use the 4 MB version!
+When you are done with the soldering you will need to program the CPLD. Whenever you do so, **make sure to carefully remove the board from your Amiga, or you might risk damaging it**. You can find the firmware [here](https://github.com/SukkoPera/OpenAmiga500FastRamExpansion/tree/master/firmware), along with instructions on how to flash it. Make sure you use the 4 MB version! My design intends to use the 5V line from the CPU to power the board even for programming, but I am unsure whether this is a good idea. It works well enough for flashing the FPGA on the Icedrake accelerator in my A1200.
 
 You are finally ready to install the expansion in your A600 but, before you do this, I suggest to clean the CPU pins using contact cleaner or isopropyl alcool and a toothbrush or cotton swabs, as all sorts of gunk will have probably gathered on them over the years. Let them dry well, then place the expansion over the CPU with the correct orientation and push it down firmly until it feels solidly in place. There should be no need to use the Force&trade;.
 
