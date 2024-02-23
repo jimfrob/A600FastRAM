@@ -12,7 +12,7 @@ A600FastRAM will allow you to add 4 MB of Fast RAM to your Amiga 600. This way y
 
 Note that the A600 was not originally designed to support a Fast RAM expansion, which means Commodore didn't provide any connector for it. In theory it could be sandwiched between the CPU and mainboard, as usually done on A500s, but in the A600 the CPU is soldered directly to the mainboard and cannot be removed. Thus the only way to install it is to clip it over the CPU, using a PLCC socket placed upside-down. PLCC sockets are not meant to be used this way, so this is really a bit of a hack and might not even work in all cases. Space around the CPU is quite limited, hence the odd shape of this board.
 
-A600FastRAM is basically a clone of [a RAM expansion produced by Kipper2K a few years ago](http://eab.abime.net/showthread.php?t=64218), based on [an earlier design by lvd/NedoPC](http://lvd.nedopc.com/Projects/a600_8mb/index.html).
+A600FastRAM is basically a clone of [SukkoPera's OpenAmiga600FastRamExpansion](https://github.com/SukkoPera/OpenAmiga600FastRamExpansion) which is itself basically a clone of [a RAM expansion produced by Kipper2K a few years ago](http://eab.abime.net/showthread.php?t=64218), based on [an earlier design by lvd/NedoPC](http://lvd.nedopc.com/Projects/a600_8mb/index.html).
 
 ### Memory Compatibility
 The required RAM Type is 16 Mbit (1M×16) DRAM in the SOJ-42 package with up to 70-80 ns access time. It is 5v-only DRAM (not SDRAM!) often found in old 72-pin SIMMs, EDO chips might work or not. All chips having *8160* in their part number should be OK.
