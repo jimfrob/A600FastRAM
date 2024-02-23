@@ -59,6 +59,7 @@ The Documentation Location of the original project is https://github.com/SukkoPe
 Since the project is open you are free to get the PCBs made by your preferred manufacturer, however in case you want to support the development, you can order them from PCBWay through this link:
 
 ### Thanks
+- SukkoPera for his easy-to-modify design
 - lvd for the initial design
 - Kipper2K for making his boards
 - majinga for helping with the testing
