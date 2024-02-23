@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MC68000_PLCC68")(type "Legacy")(uri "${KIPRJMOD}/lib/MC68000_PLCC68.lib")(options "")(descr ""))
+  (lib (name "ATF1502AS-10JU44")(type "Legacy")(uri "${KIPRJMOD}/lib/ATF1502AS-10JU44.lib")(options "")(descr ""))
+  (lib (name "HYB5118160BSJ")(type "Legacy")(uri "${KIPRJMOD}/lib/HYB5118160BSJ.lib")(options "")(descr ""))
+  (lib (name "OpenAmiga600FastRamExpansion-rescue")(type "KiCad")(uri "${KIPRJMOD}/OpenAmiga600FastRamExpansion-rescue.kicad_sym")(options "")(descr ""))
+)
